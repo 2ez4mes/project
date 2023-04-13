@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elisse Tours and Transport Services </title>
+	<link rel="shortcut icon" href="images/favicons.icon">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fontawesome.com/">
+   
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+   
+    <!-- aos cdncss -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+   
+    <!-- custom js file link -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <style>
+        /* Style the dropdown button */
+    .dropdown {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     text-align: left;
+    }
+    
+    .dropdown a {
+     display: inline-block;
+     font-size: 14px;
+     color: #333;
+     text-decoration: none;
+     transition: color 0.3s;
+    }
+    
+    /* Style the dropdown button on hover */
+    .dropdown a:hover {
+     color: #f44336;
+    }
+    
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #fff;
+     width: 100%;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 10;
+     overflow-y: auto; /* add scroll bar */
+     max-height: 100%; /* set max height for mobile view */
+    }
+    
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+     display: block;
+     font-size: 2rem;
+     color: #333;
+     text-decoration: none;
+     margin: 2rem;
+    
+     transition: background-color 0.3s;
+    }
+    
+    /* Style the links inside the dropdown on hover */
+    .dropdown-content a:hover {
+     background-color: #f1f1f1;
+    }
+       
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+     display: block;
+    }
+    
+    /* Style the sub-category options */
+    .dropdown-content a:nth-child(n+4) {
+     font-weight: normal;
+     font-style: italic;
+     color: #888;
+    }
+    
+    
+    /* Media queries */
+    @media screen and (min-width: 480px) {
+     .dropdown {
+       width: auto;
+     }
+     .dropdown a {
+       padding: 12px 16px;
+       font-size: 16px;
+     }
+     .dropdown-content {
+       width: auto;
+       min-width: 200px;
+       max-height: none; /* remove max height for desktop view */
+       overflow-y: none; /* remove scroll bar for desktop view */
+     }
+     .dropdown-content a {
+       font-size: 14px;
+       padding: 15px;
+     }
+    }
+    
+       </style>
+    <!-- header section starts -->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="index.html" class="logo" style="display: flex; align-items: center;">
+            <img src="images/ellogo.icon" alt="Elisse Tours and Transport Services Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+            <h1 style="font-size: 15px; margin: 0;">Elisse Tours and Transport Services</h1>
+          </a>
+        <nav class="navbar">
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="index.html">Home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="about.html">About</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="services.html">Services</a>
+            <div class="dropdown">
+                <a data-aos="zoom-in-left" data-aos-delay="600" >Packages</a>
+                <div class="dropdown-content">
+                  <ul>
+                    <li><a href="local.html">Local</a></li>
+                    <li><a href="domestic.html">Domestic</a></li>
+                    <li><a href="international.html">International</a></li>
+                    <li><a href="honeymoon.html">Honeymoon</a></li>
+                    <li><a href="educational.html">Educational</a></li>
+                    <li><a href="teambuilding.html">Team Building</a></li>
+                    <li><a href="mice.html">MICE</a></li>
+                  </ul>
+                </div>
+              </div>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="more.html">Gallery</a>
+          
+        </nav>
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="bookform.html" class="btn">Inquire Now</a>
+    </header>
+    <!-- header section ends -->
+
+    <!-- HOME SECTION STARTS -->
+    <section class="home" id="home">
+        <div class="content">
+            
+            <h3 data-aos="fade-up" data-aos-delay="300">Travelling is always "Good Idea"</h3>
+            <p data-aos="fade-up" data-aos-delay="450">
+                "The world is too big to stay in one place and life is too short to do just one thing."</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="bookform.html" class="btn">Book Now</a>
+        </div>
+    </section>
+    <!-- HOME SECTION ENDS -->
+
+   
+
+
+
+   <br><br><br><br><br>
+    <!-- GALLERY SECTION STARTS -->
+    <div class="heading">
+        <span>still on process ...</span>
+        <h1>OUR GALLERY</h1>
+    </div>
+
+    <div class="picture-folder">
+      <div class="folder" onclick="togglePictures('singapore')">
+        <h2>Singapore Album</h2>
+        <div class="pictures" id="singapore-pictures">
+          <img src="images/newsing1.jpg" alt="Picture 1">
+          <img src="images/newsing2.jpg" alt="Picture 2">
+          <img src="images/newsing3.jpg" alt="Picture 3">
+        </div>
+      </div>
+      <div class="folder" onclick="togglePictures('boracay')">
+        <h2>Boracay Album</h2>
+        <div class="pictures" id="boracay-pictures">
+          <img src="images/newbor1.jpg" alt="Picture 1">
+          <img src="images/newbor2.jpg" alt="Picture 2">
+          <img src="images/newbor3.jpg" alt="Picture 3">
+        </div>
+      </div>
+      <div class="folder" onclick="togglePictures('thailand')">
+        <h2>Thailand Album</h2>
+        <div class="pictures" id="thailand-pictures">
+          <img src="images/newthai1.jpg" alt="Picture 1">
+          <img src="images/newthai2.jpg" alt="Picture 2">
+          <img src="images/newthai3.jpg" alt="Picture 3">
+        </div>
+      </div>
+      <div class="folder" onclick="togglePictures('cebu')">
+        <h2>Cebu Album</h2>
+        <div class="pictures" id="cebu-pictures">
+          <img src="images/ceb1.jpg" alt="Picture 1">
+          <img src="images/ceb2.jpg" alt="Picture 2">
+          <img src="images/ceb3.jpg" alt="Picture 3">
+        </div>
+      </div>
+      <div class="folder" onclick="togglePictures('bohol')">
+        <h2>Bohol Album</h2>
+        <div class="pictures" id="bohol-pictures">
+          <img src="images/newboh1.jpg" alt="Picture 1">
+          <img src="images/newboh2.jpg" alt="Picture 2">
+          <img src="images/newboh3.jpg" alt="Picture 3">
+        </div>
+      </div>
+      <div class="folder" onclick="togglePictures('siargao')">
+        <h2>Siargao Album</h2>
+        <div class="pictures" id="siargao-pictures">
+          <img src="images/siargao1.jpg" alt="Picture 1">
+          <img src="images/siargao2.jpg" alt="Picture 2">
+          <img src="images/siargao3.jpg" alt="Picture 3">
+        </div>
+      </div>
+      <div class="folder" onclick="togglePictures('taiwan')">
+        <h2>Taiwan Album</h2>
+        <div class="pictures" id="taiwan-pictures">
+          <img src="images/newtaiw1.jpg" alt="Picture 1">
+          <img src="images/newtai2.jpg" alt="Picture 2">
+          <img src="images/newtai3.jpg" alt="Picture 3">
+        </div>
+      </div>
+      
+
+
+
+    </div>
+    <style>
+      /* Hide the images initially */
+.picture-folder .folder .pictures {
+  display: flex;
+}
+
+/* Style the folder headings to indicate that they are clickable */
+.picture-folder .folder h2 {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0;
+  background-color: #333;
+  color:#fff; 
+  
+  text-align: left;
+}
+
+/* Change the style of the heading when it is clicked */
+.picture-folder .folder.active h2 {
+  background-color: #fee320;
+  color: #1260ff; 
+}
+
+/* Show the images when the folder is clicked */
+.picture-folder .folder.active .pictures {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Style the entire picture folder */
+.picture-folder {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add some spacing between the folders */
+.picture-folder .folder {
+  margin-bottom: 20px;
+}
+
+/* Style the images */
+.picture-folder .pictures img {
+  padding-top: 15px;
+  max-width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+    </style>
+  <script>
+    function togglePictures(id) {
+      var pictures = document.getElementById(id + '-pictures');
+      pictures.style.display = pictures.style.display === 'none' ? 'block' : 'none';
+    }
+  
+    // Get all the album folders
+    const folders = document.querySelectorAll('.picture-folder .folder');
+  
+    // Add a click event listener to each folder
+    folders.forEach(folder => {
+      // Get the folder heading
+      const heading = folder.querySelector('h2');
+  
+      // Add a click event listener to the heading
+      heading.addEventListener('click', () => {
+        // Remove the "active" class from all folders
+        folders.forEach(f => f.classList.remove('active'));
+  
+        // Add the "active" class to the clicked folder
+        folder.classList.add('active');
+  
+        // Hide all the other picture albums
+        folders.forEach(f => {
+          if (f !== folder) {
+            const pictures = f.querySelector('.pictures');
+            pictures.style.display = 'none';
+          }
+        });
+      });
+  
+      // Get all the images inside the folder
+      const images = folder.querySelectorAll('.pictures img');
+  
+      // Loop through the images and add a "grid-item" class
+      images.forEach(img => {
+        img.classList.add('grid-item');
+      });
+    });
+  
+    // Get all the image grid items
+    const gridItems = document.querySelectorAll('.picture-folder .folder .pictures .grid-item');
+  
+    // Add a style to make them display as a grid
+    document.querySelector('.picture-folder .folder .pictures').style.display = 'grid';
+  
+    // Set the grid properties
+    document.querySelector('.picture-folder .folder .pictures').style.gridTemplateColumns = 'repeat(3, 1fr)';
+    document.querySelector('.picture-folder .folder .pictures').style.gridTemplateRows = 'repeat(3, 1fr)';
+    
+    // Loop through the grid items and set their grid properties
+    gridItems.forEach(item => {
+      item.style.gridColumn = 'auto';
+      item.style.gridRow = 'auto';
+    });
+  </script>
+    
+
+    
+  
+      
+    <!-- GALLERY SECTION ENDS -->
+
+    <!-- REVIEW SECTION STARTS -->
+   
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <a href="index.html" class="logo" style="display: flex; align-items: center;">
+                    <img src="images/ellogo.icon" alt="Elisse Tours and Transport Services Logo" style="width: 100px; height: 100px; margin-right: 10px;">
+                    <h1 style="font-size: 15px; margin: 0;">Elisse Tours and <br>Transport Services</h1></a>
+                <p>We are here to get you there!</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/ElisseToursandTransportServices" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/elissetoursandtransport.svcs/" class="fab fa-instagram"></a>
+                    <a href="https://www.tiktok.com/@elisse_tours" class="fa-brands fa-tiktok"></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <h3>Contact info</h3>
+                <p><i class="fa-sharp fa-solid fa-location-dot"></i>Elisse Tours and Transport Services, 253 Governor's Dr, Dasmariñas City, Cavite, Philippines</p>
+                <p><i class="fas fa-phone"></i>(+63) 926 752 9990</p>
+                <p><i class="fas fa-envelope"></i>elissetts@gmail.com</p>
+                <p><i class="fas fa-clock"></i>9:00am - 7:00pm</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="" onsubmit="return subscribe(event)">
+                  <input type="email" name="" placeholder="Enter your email" id="" class="email">
+                  <input type="submit" value="Subscribe" class="btn">
+                </form>
+                <p class="success-message" style="display:none">Thank you for subscribing!</p>
+              </div>
+              <style>
+                .success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+              </style>
+              
+            <script>
+                const form = document.querySelector('form');
+                const emailInput = document.querySelector('.email');
+                const successMessage = document.querySelector('.success-message');
+                
+                function handleSubmit(event) {
+                  event.preventDefault();
+                  const email = emailInput.value;
+                  // You can add your own logic here to handle form submission, such as sending the email to a server
+                  // For this example, we'll just display a success message
+                  successMessage.style.display = 'block';
+                  form.reset();
+                }
+                
+                form.addEventListener('submit', handleSubmit);
+              </script>
+              
+        </div>
+       
+    </section>
+    <div class="credit"><span>@Elisse Tours and Transport Services </span>| All rights reserved!</div>
+    <!-- FOOTER SECTION ENDS -->
+
+
+    <!-- aos cndjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+
+    </script>
+</body>
+</html>
